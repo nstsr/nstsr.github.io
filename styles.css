@@ -6,7 +6,7 @@
 
 :root {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 100%;
   color: #F9FAF8;
 }
 
@@ -18,23 +18,24 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 12px;
+  margin: 1rem;
 }
 
 .logo {
-  font-size: 24px;
-  margin: auto 24px;
+  font-size: 2rem;
+  margin: auto 2rem;
 }
 
 #nav-right ul {
   display: flex;
   list-style: none;
-  margin: auto 36px;
+  margin: auto 3rem;
 }
 
 #nav-right li {
-  padding: 0 12px;
+  padding: 0 3rem;
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 a {
@@ -49,39 +50,39 @@ main {
 }
 
 .about {
-  padding: 100px;
+  padding: 5rem;
   width: 80vw;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 1rem;
 }
 
 .company {
-  font-size: 48px;
+  font-size: 4rem;
   font-weight: bold;
-  padding: 10px 0;
+  padding: 1rem 0;
 }
 
 .secondary {
-  font-size: 16px;
+  font-size: 1.5rem;
   color: #E5E7EB;
-  padding: 10px 0;
+  padding: 1rem 0;
 }
 
 .president {
-  font-size: 24px;
+  font-size: 2rem;
   font-weight: bold;
-  padding: 10px 0;
+  padding: 1rem 0;
 }
 
 p img {
-  width: 1.5em;
-  height: 1.5em;
+  width: 1.5rem;
+  height: 1.5rem;
   transform: translateY(15%);
 }
 
 .work {
-  padding: 100px;
+  padding: 5rem;
   background: white;
   width: 100%;
   display: flex;
@@ -91,20 +92,20 @@ p img {
 }
 
 .heading {
-  font-size: 36px;
+  font-size: 3rem;
   font-weight: bold;
-  margin: 24px;
+  margin: 2rem;
   overflow: hidden;
   white-space: nowrap;
 }
 
 .work li {
-  padding: 8px;
-  font-size: 24px;
+  padding: 0.5rem;
+  font-size: 2rem;
 }
 
 .others {
-  padding: 100px;
+  padding: 5rem;
   background: #E5E7EB;
   width: 100%;
   display: flex;
@@ -114,12 +115,12 @@ p img {
 }
 
 .others li {
-  padding: 8px;
-  font-size: 16px;
+  padding: 0.5rem;
+  font-size: 1.5rem;
 }
 
 footer p {
   display: flex;
-  padding: 50px 100px;
+  padding: 3rem 5rem;
   justify-content: center;
 }
